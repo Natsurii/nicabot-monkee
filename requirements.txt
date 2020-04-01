@@ -1,0 +1,9 @@
+discord.py
+Pillow
+aiohttp
+websockets
+aiofiles
+psutil
+jishaku
+tensorflow
+hikari==0.0.80
