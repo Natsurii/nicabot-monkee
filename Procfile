@@ -1,1 +1,1 @@
-worker: python run2.py
+worker: python dpy_run.py
