@@ -27,8 +27,8 @@ def find_token():
         token = file.read()
     return token
 
-token = find_token()
-#token = os.environ['TOKEN']
+#token = find_token()
+token = os.environ['TOKEN']
 owner = [422393995642273792, 305998511894167552] 
 Desc = 'Welcome to Mika ver. 0.4.5 Framework. \nThis project is still in WORK IN PROGRESS.'
 

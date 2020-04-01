@@ -10,8 +10,8 @@ def find_token():
 		token = file.read()
 	return token
 
-token = find_token()
-#token = os.environ['TOKEN']
+#token = find_token()
+token = os.environ['TOKEN']
 
 prefix = 'mhik++'
 
