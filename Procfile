@@ -1,1 +1,1 @@
-worker: python hikari_run.py
+worker: python dpy_run.py
