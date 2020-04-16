@@ -16,6 +16,11 @@ class Prescence(commands.Cog):
     @tasks.loop(seconds=60.0)
     async def prescence_default(self):
     	await self.bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=f'{len(self.bot.users)} users.'))
+    	
+    @prescence_default.before_loop
+    async def before_running(self):
+        print('Bot setting up... Adding presence...')
+        await self.bot.wait_until_ready()
 
 def setup(bot):
 	bot.add_cog(Prescence(bot))
