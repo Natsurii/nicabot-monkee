@@ -6,3 +6,4 @@ aiofiles
 psutil
 jishaku
 hikari==0.0.80
+git+git://github.com/sherlock-project/sherlock.git
